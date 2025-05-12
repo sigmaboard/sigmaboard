@@ -1,0 +1,42 @@
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            margin: 0;
+            background-color:rgb(174, 181, 142);
+        }
+
+        #stopAllButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            align-items: center;
+        }
+
+        #audioButtonsContainer {
+            margin-top: 50px;
+            align-items: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            align-items: center;
+            color:rgb(60, 86, 15);
+            border-color: rgb(202, 189, 75);
+            border-width: 5px;
+        }
+
+         .container {
+       text-align: center;
+   }
+
+   button {
+       display: inline-block;
+   }
+
+   
