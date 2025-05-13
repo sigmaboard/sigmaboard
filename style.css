@@ -52,13 +52,10 @@ a.button a:hover{
         }
 
         button {
-            padding: 10px 20px;
-            margin: 10px;
-            cursor: pointer;
-            align-items: center;
-            color:rgb(60, 86, 15);
-            border-color: rgb(202, 189, 75);
-            border-width: 5px;
+            box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
+      transform: scale(1.05);
+      background-color:rgb(185, 185, 185);
+      border-color: rgb(122, 122, 122);
         }
 
          .container {
@@ -80,13 +77,10 @@ a.button a:hover{
         }
 
         button {
-            padding: 10px 20px;
-            margin: 10px;
-            cursor: pointer;
-            align-items: center;
-            color:rgb(60, 86, 15);
-            border-color: rgb(202, 189, 75);
-            border-width: 5px;
+           box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
+      transform: scale(1.05);
+      background-color:rgb(185, 185, 185);
+      border-color: rgb(122, 122, 122);box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
         }
 
         body {
@@ -112,20 +106,17 @@ a.button a:hover{
             align-items: center;
         }
 
-        button {
-            padding: 10px 20px;
-            margin: 10px;
-            cursor: pointer;
-            align-items: center;
-            color:rgb(60, 86, 15);
-            border-color: rgb(202, 189, 75);
-            border-width: 5px;
-        }
-
          .container {
        text-align: center;
    }
 
    button {
        display: inline-block;
+   }
+
+   .sigmabutton {
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
+      transform: scale(1.05);
+      background-color:rgb(185, 185, 185);
+      border-color: rgb(122, 122, 122);
    }
