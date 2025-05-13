@@ -2,60 +2,14 @@
 <html>
 <head>
     <title>Sound Buttons</title>
-    <style>
-        
-        
-        
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            min-height: 100vh;
-            margin: 0;
-            background-color:rgb(174, 181, 142);
-        }
-
-        #stopAllButton {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 20px;
-            align-items: center;
-        }
-
-        #audioButtonsContainer {
-            margin-top: 50px;
-            align-items: center;
-        }
-
-        button {
-            padding: 10px 20px;
-            margin: 10px;
-            cursor: pointer;
-            align-items: center;
-            color:rgb(60, 86, 15);
-            border-color: rgb(202, 189, 75);
-            border-width: 5px;
-        }
-
-        
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-</body>
-</html>
+<button>Home Page</button> 
 
-<button onclick="location.href='///media/fuse/drivefs-b7a1781542f2c098bc2610efd7e295fd/root/HLF/Coding_Tips/giggity/index.html'">Home Page</button> 
+<button>ASMR</button> 
 
-<button onclick="location.href='///media/fuse/drivefs-b7a1781542f2c098bc2610efd7e295fd/root/HLF/Coding_Tips/ASMRpageforGiggity/index.html'">ASMR</button> 
-
-
-
-</body>
-</html>
 
     <button id="stopAllButton">Stop All</button>
 
@@ -130,32 +84,8 @@
 
 
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const buttons = document.querySelectorAll('[data-audio]');
+    <script src="code.js"></script>
 
-            buttons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const audioId = this.getAttribute('data-audio');
-                    const audio = document.getElementById(audioId);
-
-                    if (audio) {
-                        audio.currentTime = 0;
-                        audio.play();
-                    }
-                });
-            });
-
-            document.getElementById('stopAllButton').addEventListener('click', function() {
-                const audios = document.querySelectorAll('audio');
-                audios.forEach(audio => {
-                    audio.pause();
-                    audio.currentTime = 0;
-                });
-            });
-        });
-    </script>
 
 </body>
 </html>
-    
