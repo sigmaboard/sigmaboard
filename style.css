@@ -25,6 +25,7 @@ button {
             border-radius: 6px;
             background-color: rgb(54, 54, 54);
             transition:0.2s, box-shadow 0.4s ;
+            width: fit-content;
 }
 
 button:hover {
