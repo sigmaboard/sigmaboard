@@ -1,78 +1,28 @@
 body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        min-height: 100vh;
-        margin:0;
-        background-color:rgb(174, 181, 142);
-        font-family: Geist;
-        }
-
-@font-face {
-        font-family: Geist;
-        src: url(fonts/Geist-Font.ttf);
+    align-items: baseline;
+    background: linear-gradient(to bottom right, #4a5d5c, #0b0f36);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
-a.button {
-   display: -moz-inline-stack;
-   display: inline-block;
-   width: 391px;
-   height: 62px;
-   background: url("img/btncolor.png") no-repeat;
-   line-height: 62px;
-   vertical-align: text;
-   text-align: center;
-   color:aquamarine;
-   font-family: Geist;
-   font-size: 39px;
-   font-weight: normal;
-   font-style: normal;
-   text-shadow: #222222 1px 1px 0;
-}
-
-.homepage-buttons {
-        box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
-        transform: scale(1.05);
-        background-color:rgb(185, 185, 185);
-        border-color: rgb(122, 122, 122);
-        display: inline-block;
-}
-
-.homepage-buttons:hover {
-        size: 110%;
-        transform: smooth;
-}
-
-a.button a:hover{
-     background: #383;
-}
-
-#stopAllButton {
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-        margin-top: 20px;
-        align-items: center;
-        }
-
-#audioButtonsContainer {
-        margin-top: 50px;
-        align-items: center;
-        }
-
 button {
-        box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
-        transform: scale(1.05);
-        background-color:rgb(185, 185, 185);
-        border-color: rgb(122, 122, 122);
-        display: inline-block;
-        }
+    padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            align-items: center;
+            color:rgb(255, 255, 255);
+            border-color: rgb(111, 111, 111);
+            border-width: 5px;
+            font-family:fantasy;
+            font: weight 10px;
+            border-radius: 6px;
+            background-color: rgb(54, 54, 54);
+            transition:0.2s, box-shadow 0.4s ;
+}
 
-.container {
-        text-align: center;
-        box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
-        transform: scale(1.05);
-        background-color:rgb(185, 185, 185);
-        border-color: rgb(122, 122, 122);
-   }
+button:hover {
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
+      transform: scale(1.05);
+      border-color: rgb(33, 200, 198);
+      background-color:rgb(17, 99, 104);
+}
