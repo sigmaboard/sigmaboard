@@ -1,13 +1,18 @@
 body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            min-height: 100vh;
-            margin: 0;
-            background-color:rgb(174, 181, 142);
-       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+        margin:0;
+        background-color:rgb(174, 181, 142);
+        font-family: Geist;
         }
+
+@font-face {
+        font-family: Geist;
+        src: url(fonts/Geist-Font.ttf);
+}
 
 a.button {
    display: -moz-inline-stack;
@@ -26,35 +31,48 @@ a.button {
    text-shadow: #222222 1px 1px 0;
 }
 
+.homepage-buttons {
+        box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
+        transform: scale(1.05);
+        background-color:rgb(185, 185, 185);
+        border-color: rgb(122, 122, 122);
+        display: inline-block;
+}
+
+.homepage-buttons:hover {
+        size: 110%;
+        transform: smooth;
+}
+
 a.button a:hover{
      background: #383;
 }
 
 #stopAllButton {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 20px;
-            align-items: center;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+        align-items: center;
         }
 
 #audioButtonsContainer {
-            margin-top: 50px;
-            align-items: center;
+        margin-top: 50px;
+        align-items: center;
         }
 
 button {
-           box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
-      transform: scale(1.05);
-      background-color:rgb(185, 185, 185);
-      border-color: rgb(122, 122, 122);box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
-             display: inline-block;
+        box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
+        transform: scale(1.05);
+        background-color:rgb(185, 185, 185);
+        border-color: rgb(122, 122, 122);
+        display: inline-block;
         }
 
 .container {
-       text-align: center;
-      box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
-      transform: scale(1.05);
-      background-color:rgb(185, 185, 185);
-      border-color: rgb(122, 122, 122);
+        text-align: center;
+        box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
+        transform: scale(1.05);
+        background-color:rgb(185, 185, 185);
+        border-color: rgb(122, 122, 122);
    }
