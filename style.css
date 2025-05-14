@@ -4,7 +4,14 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: Geist;
 }
+
+@font-face {
+    font-family: Geist;
+    src: url(fonts/Geist-Font.ttf);
+}
+
 button {
     padding: 10px 20px;
             margin: 10px;
