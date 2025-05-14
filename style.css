@@ -21,10 +21,10 @@ a.button {
    height: 62px;
    background: url("img/btncolor.png") no-repeat;
    line-height: 62px;
-   vertical-align: text-middle;
+   vertical-align: text;
    text-align: center;
    color:aquamarine;
-   font-family: Zenhei;
+   font-family: Geist;
    font-size: 39px;
    font-weight: normal;
    font-style: normal;
