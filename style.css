@@ -41,3 +41,18 @@ h1 {
     align-items: center;
     height: 100vh;
 }
+
+.scroll-button {
+      position: fixed; /* Sticks the button in a fixed position on the screen */
+      bottom: 20px; /* 20px from the bottom */
+      right: 20px; /* 20px from the right */
+      padding: 10px 20px;
+      background-color: #007BFF; /* Blue background */
+      color: white; /* White text */
+      border: none; /* No border */
+      border-radius: 5px; /* Rounded corners */
+      cursor: pointer; /* Pointer cursor on hover */
+      font-size: 16px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a modern look */
+      transition: background-color 0.3s; /* Smooth transition for hover effect */
+    }
