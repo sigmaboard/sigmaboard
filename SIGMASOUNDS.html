@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soundboard</title>
+  <style>
+    body { font-family: sans-serif; background: #222; color: #fff; text-align: center; }
+    .soundboard { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 40px; }
+    .sound-btn {
+      background: #444;
+      border: none;
+      padding: 20px 40px;
+      font-size: 1.2em;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .sound-btn:hover { background: #666; }
+  </style>
+</head>
+<body>
+  <h1>Simple Soundboard</h1>
+  <div class="soundboard">
+    <button class="sound-btn" data-sound="sound1.mp3">Sound 1</button>
+    <button class="sound-btn" data-sound="sound2.mp3">Sound 2</button>
+    <button class="sound-btn" data-sound="sound3.mp3">Sound 3</button>
+    <!-- Add more buttons as needed -->
+  </div>
+
+  <audio id="player"></audio>
+
+  <script src="SIGMASOUNDS.js"></script>
+</body>
+</html>
